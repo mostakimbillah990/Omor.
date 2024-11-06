@@ -1,0 +1,46 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image and Video Centered</title>
+    <style>
+        img {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 10lvh;
+            gap: 10px;
+        }
+        img {
+            width: 150px;
+            height: 200px;
+        }
+        video {
+            width: 320px; /* Set your desired width */
+            height: 240px; /* Set your desired height */
+        }
+    </style>
+</head>
+<body>
+     অমরের এই ছবিটি ৭-৭-২০২৪ তারিখের এবং এই তারিখে রাত ১০ তাই ওমর আমাদের মাঝে আসে।
+        <img src="https://firebasestorage.googleapis.com/v0/b/smm-penel-be4bc.appspot.com/o/image%2F1000017132.jpg?alt=media&token=4469290b-08bf-4f7d-aac6-88ab0ad865a6" alt="ওমর">
+        <img src="https://firebasestorage.googleapis.com/v0/b/smm-penel-be4bc.appspot.com/o/image%2F1000017132.jpg?alt=media&token=4469290b-08bf-4f7d-aac6-88ab0ad865a6" alt="ওমর">
+        <img src="https://firebasestorage.googleapis.com/v0/b/smm-penel-be4bc.appspot.com/o/image%2F1000017132.jpg?alt=media&token=4469290b-08bf-4f7d-aac6-88ab0ad865a6" alt="ওমর">
+        <img src="https://firebasestorage.googleapis.com/v0/b/smm-penel-be4bc.appspot.com/o/image%2F1000017132.jpg?alt=media&token=4469290b-08bf-4f7d-aac6-88ab0ad865a6" alt="ওমর">
+        <img src="https://firebasestorage.googleapis.com/v0/b/smm-penel-be4bc.appspot.com/o/image%2F1000017132.jpg?alt=media&token=4469290b-08bf-4f7d-aac6-88ab0ad865a6" alt="ওমর">
+        <img src="https://firebasestorage.googleapis.com/v0/b/smm-penel-be4bc.appspot.com/o/image%2F1000017132.jpg?alt=media&token=4469290b-08bf-4f7d-aac6-88ab0ad865a6" alt="ওমর">
+        <img src="https://firebasestorage.googleapis.com/v0/b/smm-penel-be4bc.appspot.com/o/image%2F1000017132.jpg?alt=media&token=4469290b-08bf-4f7d-aac6-88ab0ad865a6" alt="ওমর">
+        <img src="https://firebasestorage.googleapis.com/v0/b/smm-penel-be4bc.appspot.com/o/image%2F1000017132.jpg?alt=media&token=4469290b-08bf-4f7d-aac6-88ab0ad865a6" alt="ওমর">
+        <img src="https://firebasestorage.googleapis.com/v0/b/smm-penel-be4bc.appspot.com/o/image%2F1000017132.jpg?alt=media&token=4469290b-08bf-4f7d-aac6-88ab0ad865a6" alt="ওমর">
+        <img src="https://firebasestorage.googleapis.com/v0/b/smm-penel-be4bc.appspot.com/o/image%2F1000017132.jpg?alt=media&token=4469290b-08bf-4f7d-aac6-88ab0ad865a6" alt="ওমর">
+        
+       
+        <video controls>
+            <source src="https://vioo.cc/v/c7drL" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</body>
+</html>
