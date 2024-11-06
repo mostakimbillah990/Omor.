@@ -57,7 +57,7 @@
 
    <main>
        
-        <h2>পরিচিতি </h2>
+   <h2>পরিচিতি </h2>
      <div>
             <img src="https://firebasestorage.googleapis.com/v0/b/smm-penel-be4bc.appspot.com/o/image%2F1000017133.jpg?alt=media&token=54f03520-004b-4ab7-8dca-47aa0c6fd3cd" alt="Centered Image">
         <p>• নাম: আবুতোহা-আদনান ওমর (আলিফ)।</p>
@@ -67,7 +67,7 @@
     <p> এই ওয়েবসাইট টি ওমর এর শৈশব এর অমূল্য স্মৃতি স্মরণ রাখার জন্যে ব্যবহাররিত হবে।</p>
     </div>
     
-      <h3> স্মৃতি তালিকা</h3>
+   <h3> স্মৃতি তালিকা</h3>
         <ul>
             <li><a href="https://www.example.com" target="_blank">১ থেকে ৪ মাস</a></li>
             <li><a href="https://www.example2.com" target="_blank">৪ মাস </a></li>
@@ -75,7 +75,7 @@
     </main>
 
    <footer>
-        <p>Created by [Your Name]. &copy; 2024</p>
+        <p>Created by Mostakim. &copy; 2024</p>
     </footer>
 
 </body>
