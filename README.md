@@ -70,7 +70,7 @@
    <h3> স্মৃতি তালিকা</h3>
         <ul>
             <li><a href="https://www.example.com" target="_blank">১ থেকে ৪ মাস</a></li>
-            <li><a href="https://www.example2.com" target="_blank">৪ মাস </a></li>
+            <li><a href="1tp4" target="_blank">৪ মাস </a></li>
         </ul>
     </main>
 
