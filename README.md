@@ -1,81 +1,155 @@
-
-<html lang="en">
+<!DOCTYPE html>
+<html lang="bn">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abu-Toha Omor (Alif)</title>
+    <title>ওমর </title>
     <style>
-        /* Basic CSS styling */
-        body {
-            font-family: Arial, sans-serif;
+        /* সাধারণ স্টাইল */
+        * {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
+            font-family: Arial, sans-serif;
         }
-        header {
+
+        /* হেডার স্টাইল */
+        .header {
             background-color: #4CAF50;
             color: white;
+            padding: 3em 1em;
             text-align: center;
-            padding: 1em 0;
         }
-        main {
-            padding: 20px;
+
+        .header-content h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
         }
-        footer {
+
+        .header-content p {
+            font-size: 1.2em;
+        }
+
+        /* পরিচিতি সেকশন */
+        .about {
+            padding: 3em 1em;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+
+        .about h2 {
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 0.5em;
+        }
+
+        .about p {
+            font-size: 1.1em;
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* দক্ষতা সেকশন */
+        .skills {
+            padding: 3em 1em;
+            text-align: center;
+        }
+
+        .skills h2 {
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 1em;
+        }
+
+        .skill-grid {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .skill-card {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            padding: 1.5em;
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .skill-card h3 {
+            font-size: 1.5em;
+            color: #4CAF50;
+            margin-bottom: 0.5em;
+        }
+
+        .skill-card p {
+            font-size: 1em;
+            color: #666;
+        }
+
+        /* ফুটার */
+        .footer {
             background-color: #333;
             color: white;
             text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            padding: 1.5em 0;
         }
-        a {
-            color: #4CAF50;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-         .image-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        img {
-            width: 60px;
-            height: 60px;
+
+        /* রেসপন্সিভ ডিজাইন */
+        @media (max-width: 768px) {
+            .skill-grid {
+                flex-direction: column;
+                align-items: center;
             }
+        }
     </style>
 </head>
 <body>
 
-   <header>
-        <h1>Omor childhood</h1>
+    <!-- হেডার সেকশন -->
+    <header class="header">
+        <div class="header-content">
+            <h1>ওমর স্মৃতি ঘর</h1>
+            <p>আমি ওমর, আমি একজন মুসলিম</p>
+        </div>
     </header>
 
-   <main>
-       
-   <h2>পরিচিতি </h2>
-     <div>
-            <img src="https://firebasestorage.googleapis.com/v0/b/smm-penel-be4bc.appspot.com/o/image%2F1000017133.jpg?alt=media&token=54f03520-004b-4ab7-8dca-47aa0c6fd3cd" alt="Centered Image">
-        <p>• নাম: আবুতোহা-আদনান ওমর (আলিফ)।</p>
-        <p>•ঠিকানা : নারায়ণগঞ্জ, বন্দর, বুরুন্দি। </p> 
-        <p>•পিতা : মোস্তাকিম বিল্লাহ। •মাতা : রাজিয়া সুলতানা।
-        </p>
-    <p> এই ওয়েবসাইট টি ওমর এর শৈশব এর অমূল্য স্মৃতি স্মরণ রাখার জন্যে ব্যবহাররিত হবে।</p>
-    </div>
-    
-   <h3> স্মৃতি তালিকা</h3>
-        <ul>
-            <li><a href="https://www.example.com" target="_blank">১ থেকে ৪ মাস</a></li>
-            <li><a href="1tp4" target="_blank">৪ মাস </a></li>
-        </ul>
-    </main>
+    <!-- পরিচিতি সেকশন -->
+    <section class="about" id="about">
+        <h2>আমার সম্পর্কে</h2>
+        <p>আমি আবুতোহা আদনান ওমর (আলিফ)জন্ম তারিখ ৭ জুলাই ২০২৪ সাল।পিতা :মোস্তাকিম বিল্লাহ। মাতা :রাজিয়া সুলতানা। ঠিকানা - জেলা : নারায়ণগঞ্জ। থানা : বন্দর। গ্রাম :বুরুন্দি।</p>
+    </section>
 
-   <footer>
-        <p>Created by Mostakim. &copy; 2024</p>
+    <!-- দক্ষতা সেকশন -->
+    <section class="skills" id="skills">
+        <h2> লিস্ট </h2>
+        <div class="skill-grid">
+            <a href="content://com.android.externalstorage.documents/tree/E82C-0F02%3AMy%20Pesobal%20Dissain%2Ffull%20web%20design%2F%E0%A6%B6%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%82%20%E0%A6%93%E0%A7%9F%E0%A7%87%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F%20%2FOmor/document/E82C-0F02%3AMy%20Pesobal%20Dissain%2Ffull%20web%20design%2F%E0%A6%B6%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%82%20%E0%A6%93%E0%A7%9F%E0%A7%87%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F%20%2FOmor%2F1to4.html" class="skill-card">
+                <h3>১-৪</h3>
+                <p>১ থেকে চার মাস বয়স পর্যন্ত ওমরের তোলা বিভিন্ন পিক এবং ভিডিও</p>
+            </a>
+            <a href="content://com.android.externalstorage.documents/tree/E82C-0F02%3AMy%20Pesobal%20Dissain%2Ffull%20web%20design%2F%E0%A6%B6%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%82%20%E0%A6%93%E0%A7%9F%E0%A7%87%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F%20%2FOmor/document/E82C-0F02%3AMy%20Pesobal%20Dissain%2Ffull%20web%20design%2F%E0%A6%B6%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%82%20%E0%A6%93%E0%A7%9F%E0%A7%87%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F%20%2FOmor%2F4to5.html" class="skill-card">
+                <h3>৪-৫</h3>
+                <p>৪ থেকে ৫ মাস বয়স পর্যন্ত ওমরের বিভিন্ন পিক এবং ভিডিও</p>
+            </a>
+            <a href="page3.html" class="skill-card">
+                <h3>JavaScript</h3>
+                <p>ওয়েবসাইটের ইন্টারঅ্যাকশন উন্নত করার জন্য JavaScript ব্যবহার করি।</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- ফুটার -->
+    <footer class="footer">
+        <p>&copy; ২০২৪ আমার ওয়েবসাইট। সর্বস্বত্ব সংরক্ষিত।</p>
     </footer>
 
 </body>
