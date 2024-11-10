@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1 to 4 mounth </title>
+    <style>
+        /* সাধারণ স্টাইল */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* হেডার স্টাইল */
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 2em 1em;
+            text-align: center;
+        }
+
+        .header-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .header-text h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+
+        .header-text p {
+            font-size: 1.2em;
+            margin-bottom: 1em;
+        }
+
+        /* হেডার ইমেজ স্টাইল */
+        .header-images {
+            display: flex;
+            gap: 15px;
+            margin-top: 1em;
+            justify-content: center;
+        }
+
+        .header-images img {
+            width: 200px;
+            height: 200px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .header-images img:hover {
+            transform: scale(1.1);
+        }
+
+        /* ভিডিও স্টাইল */
+        .header-video {
+            margin: 2em auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        .header-video video {
+            width: 80%;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* রেসপন্সিভ ডিজাইন */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .header-images {
+                flex-wrap: wrap;
+            }
+
+            .header-video video {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- হেডার সেকশন -->
+    <header class="header">
+        <div class="header-content">
+            <div class="header-text">
+                <h1>1 থেকে ৪ মাস</h1>
+
+            </div>
+            </header>
+            <!-- ইমেজ গ্যালারি -->
+            <div class="header-images">
+                <img src="https://firebasestorage.googleapis.com/v0/b/smm-penel-be4bc.appspot.com/o/image%2F1000017132.jpg?alt=media&token=451525a4-4246-4c0b-bba8-195b5dfb28e0" alt="Image 1">
+                <img src="https://firebasestorage.googleapis.com/v0/b/smm-penel-be4bc.appspot.com/o/image%2F1000017133.jpg?alt=media&token=8fc34cdf-89f3-4b58-a311-a944756bce7e" alt="Image 2">
+                <img src="https://firebasestorage.googleapis.com/v0/b/smm-penel-be4bc.appspot.com/o/image%2F1000017134.jpg?alt=media&token=ccbffc7f-43fd-4ea8-8960-5de4494649c4" alt="Image 3">
+                <img src="https://firebasestorage.googleapis.com/v0/b/smm-penel-be4bc.appspot.com/o/image%2F1000017131.jpg?alt=media&token=c5618e00-e3f7-48a2-b222-b51b357b278d" alt="Image 3">
+                <img src="https://firebasestorage.googleapis.com/v0/b/smm-penel-be4bc.appspot.com/o/image%2F1000017129.jpg?alt=media&token=c7ed3721-a4c9-455e-b21c-46705a2566df" alt="Omor">
+                <img src="https://firebasestorage.googleapis.com/v0/b/smm-penel-be4bc.appspot.com/o/image%2F1000017126.jpg?alt=media&token=95371d1a-3c59-4682-86b0-303d2d99b41b" alt="Omor">
+                <img src="https://firebasestorage.googleapis.com/v0/b/smm-penel-be4bc.appspot.com/o/image%2F1000017396.jpg?alt=media&token=83c1b4d9-5697-4afa-abf0-3a8ff3e4ee66" alt="Omor">
+                <img src="https://firebasestorage.googleapis.com/v0/b/smm-penel-be4bc.appspot.com/o/image%2F1000017446.jpg?alt=media&token=861535cf-b94a-4a73-ac23-879cbf82f584" alt="Omor">
+                <img src="image3.jpg" alt="Omor">
+                <img src="image3.jpg" alt="Omor">
+                <img src="image3.jpg" alt="Omor">
+                <img src="image3.jpg" alt="Omor">
+
+            </div>
+        </div>
+
+
+    <!-- ভিডিও -->
+    <div class="header-video">
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            আপনার ব্রাউজার ভিডিও প্লে করতে সাপোর্ট করছে না।
+        </video>
+    </div>
+
+</body>
+</html>
