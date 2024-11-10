@@ -132,7 +132,7 @@
     <section class="skills" id="skills">
         <h2> লিস্ট </h2>
         <div class="skill-grid">
-            <a href="content://com.android.externalstorage.documents/tree/E82C-0F02%3AMy%20Pesobal%20Dissain%2Ffull%20web%20design%2F%E0%A6%B6%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%82%20%E0%A6%93%E0%A7%9F%E0%A7%87%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F%20%2FOmor/document/E82C-0F02%3AMy%20Pesobal%20Dissain%2Ffull%20web%20design%2F%E0%A6%B6%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%82%20%E0%A6%93%E0%A7%9F%E0%A7%87%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F%20%2FOmor%2F1to4.html" class="skill-card">
+            <a href="1tp4.html" class="skill-card">
                 <h3>১-৪</h3>
                 <p>১ থেকে চার মাস বয়স পর্যন্ত ওমরের তোলা বিভিন্ন পিক এবং ভিডিও</p>
             </a>
