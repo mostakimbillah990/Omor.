@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="bn">
 <head>
     <meta charset="UTF-8">
@@ -132,7 +132,7 @@
     <section class="skills" id="skills">
         <h2> লিস্ট </h2>
         <div class="skill-grid">
-            <a href="1tp4.html" class="skill-card">
+            <a href="https://github.com/mostakimbillah990/Omor./blob/main/1tp4" class="skill-card">
                 <h3>১-৪</h3>
                 <p>১ থেকে চার মাস বয়স পর্যন্ত ওমরের তোলা বিভিন্ন পিক এবং ভিডিও</p>
             </a>
